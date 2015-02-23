@@ -1,0 +1,3 @@
+SUBDIRS = Source
+
+ACLOCAL_AMFLAGS = -I m4
