@@ -27,3 +27,10 @@ Build/Targets/arm-android-linux
 Build/Targets/universal-apple-macosx/cov-int
 Bento4.xcscmblueprint
 Build/Targets/cmake
+Makefile.in
+Makefile
+*.lo
+*.o
+*.la
+.deps
+.libs
