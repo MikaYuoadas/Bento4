@@ -2,6 +2,7 @@ AC_PREREQ([2.67])
 AC_INIT([bento4], [1.4.3.606], [anael.beutot@arkena.com])
 AM_INIT_AUTOMAKE([foreign -Wall -Werror dist-bzip2])
 # AC_CONFIG_HEADERS([config.h])
+m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 
 AM_PATH_PYTHON
 
