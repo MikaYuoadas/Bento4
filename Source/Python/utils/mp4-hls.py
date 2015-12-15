@@ -22,7 +22,7 @@ import fractions
 import re
 import platform
 import sys
-from mp4utils import *
+from b4.mp4utils import *
 
 # setup main options
 VERSION = "1.0.0"

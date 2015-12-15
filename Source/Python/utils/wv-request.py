@@ -2,7 +2,7 @@
 
 import sys
 import json
-import aes
+from b4 import aes
 import hashlib
 from optparse import OptionParser
 

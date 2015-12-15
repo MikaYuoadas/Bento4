@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 
 from optparse import OptionParser
-from mp4utils import *
+from b4.mp4utils import *
 from subprocess import check_output, CalledProcessError
 import os
 import json

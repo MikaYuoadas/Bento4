@@ -66,6 +66,7 @@ Source/C++/System/StdC/Makefile
 Source/Makefile
 Source/Python/Makefile
 Source/Python/bento4/Makefile
+Source/Python/b4/Makefile
 Source/Python/utils/Makefile
                  ])
 

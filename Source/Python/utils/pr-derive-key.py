@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 
 import sys
-from mp4utils import DerivePlayReadyKey
+from b4.mp4utils import DerivePlayReadyKey
 
 ###########################    
 if __name__ == '__main__':

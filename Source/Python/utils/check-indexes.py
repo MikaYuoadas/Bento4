@@ -1,6 +1,6 @@
 #!/usr/bin/env python2
 
-import mp4utils
+from b4 import mp4utils
 import sys
 import os.path as path
 
