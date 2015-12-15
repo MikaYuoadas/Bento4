@@ -15,6 +15,14 @@ AC_PROG_LIBTOOL
 # AC_PROG_YACC
 # AC_PROG_SED
 
+AC_CHECK_PROG([FFMPEG], [ffmpeg], [yes])
+if test x"$FFMPEG" == x"yes"
+then
+    AC_PATH_PROG([FFMPEG], [ffmpeg])
+else
+    AC_MSG_ERROR([Cannot find binary ffmpeg.])
+fi
+
 # Checks for libraries.
 # AC_CHECK_LIB([ev], [ev_default_loop], [EVLIB=-lev])
 # AC_SUBST([EVLIB])
