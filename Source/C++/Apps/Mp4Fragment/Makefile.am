@@ -3,4 +3,4 @@ AM_CXXFLAGS = -I$(top_srcdir)/Source/C++/Core -I$(top_srcdir)/Source/C++/MetaDat
 bin_PROGRAMS = mp4fragment
 
 mp4fragment_SOURCES = Mp4Fragment.cpp
-mp4fragment_LDADD = $(top_builddir)/Source/C++/Core/libb4core.la $(top_builddir)/Source/C++/MetaData/libb4metadata.la $(top_builddir)/Source/C++/Codecs/libb4codecs.la $(top_builddir)/Source/C++/System/Posix/libb4posix.la $(top_builddir)/Source/C++/System/StdC/libb4stdc.la $(top_builddir)/Source/C++/CApi/libb4capi.la
+mp4fragment_LDADD = $(top_builddir)/Source/C++/Lib/libbento4.la

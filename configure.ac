@@ -58,6 +58,7 @@ Source/C++/CApi/Makefile
 Source/C++/Codecs/Makefile
 Source/C++/Core/Makefile
 Source/C++/Crypto/Makefile
+Source/C++/Lib/Makefile
 Source/C++/Makefile
 Source/C++/MetaData/Makefile
 Source/C++/System/Makefile
