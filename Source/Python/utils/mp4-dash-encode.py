@@ -1,3 +1,5 @@
+#!/usr/bin/env python2
+
 from optparse import OptionParser
 from mp4utils import *
 from subprocess import check_output, CalledProcessError

@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # Based on the public domain code from tlslite (Trevor Perrin, http://trevp.net/tlslite/)
 
 import copy

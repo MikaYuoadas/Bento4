@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 __author__    = 'Gilles Boccon-Gibod (bok@bok.net)'
 __copyright__ = 'Copyright 2011-2012 Axiomatic Systems, LLC.'
